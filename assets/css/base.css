@@ -1,0 +1,31 @@
+/* Reset */
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+/* Base */
+:root {
+    --text-color:#34495e;;
+    --white-color: #fff;
+    --primary-color: #13aa52;
+    --second-color: #13aa52;
+    --shadow: 0 3px 9px 0 rgba(0,0,0,0.15);
+    --left-width: 20%;
+    --right-width: 100%-var(--left-width);
+    --gray-color: #ddd;
+    --r4: 4rem;
+}
+.grid {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
