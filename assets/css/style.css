@@ -174,12 +174,18 @@
     color: #ffc107;
 }
 .img-photo {
-    width:500px;
+    max-width:500px;
     object-fit: cover;
 }
 .image-photo {
     text-align: center;
     margin: 50px 0;
+}
+.image-photo ul {
+    list-style-type: none;
+}
+.image-photo ul li {
+    display: inline-block;
 }
 ul.list-inline.dev-icons {
     padding-left: 0;
